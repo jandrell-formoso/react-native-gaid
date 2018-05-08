@@ -23,7 +23,7 @@ public class RNGaidPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    // Removed override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
